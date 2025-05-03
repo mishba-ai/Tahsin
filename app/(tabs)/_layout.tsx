@@ -19,20 +19,34 @@ const _layout = () => {
     <Tabs 
     screenOptions={{
       // tabBarShowLabel:false,
+      tabBarItemStyle:{
+
+      },
+      tabBarActiveTintColor:'#7D882F',
+      tabBarInactiveTintColor:'#8E8E93',
       tabBarStyle:{
         // backfaceVisibility:
-        backgroundColor:'#212121',
-        borderRadius:50
+        backgroundColor:'#e9ebc7',
+        borderRadius:50,
+        marginHorizontal:20,
+        marginBottom:15,
+        height:52,
+        position:'absolute',
+        overflow:'hidden',
+        borderWidth:1,
+        borderColor:'#C3CD79',
+        // opacity:90
       }
     }} >
       <Tabs.Screen name='index' options={{
         title: 'Home',
+        
         headerShown: false,
         tabBarIcon: ({ focused }) => (
           <HomeIcon
             width={24}
             height={24}
-            stroke={focused ? "#007AFF" : "#8E8E93"}
+            stroke={focused ? "#7D882F" : "#8E8E93"}
           />
         )
       }} 
@@ -44,7 +58,7 @@ const _layout = () => {
           <AkhlaqIcon
             width={24}
             height={24}
-            stroke={focused ? "#007AFF" : "#8E8E93"}
+            stroke={focused ? "#7D882F" : "#8E8E93"}
           />
         )
       }} />
@@ -55,7 +69,7 @@ const _layout = () => {
           <CommunityIcon
             width={24}
             height={24}
-            stroke={focused ? "#007AFF" : "#8E8E93"}
+            stroke={focused ? "#7D882F" : "#8E8E93"}
           />
         )
       }} />
@@ -66,7 +80,7 @@ const _layout = () => {
           <JournalIcon
             width={24}
             height={24}
-            stroke={focused ? "#007AFF" : "#8E8E93"}
+            stroke={focused ? "#7D882F" : "#8E8E93"}
           />
         )
       }} />
@@ -77,7 +91,7 @@ const _layout = () => {
           <ProfileIcon
             width={24}
             height={24}
-            stroke={focused ? "#007AFF" : "#8E8E93"}
+            stroke={focused ? "#7D882F" : "#8E8E93"}
           />
         )
       }} />

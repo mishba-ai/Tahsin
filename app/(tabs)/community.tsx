@@ -1,9 +1,11 @@
-import { StyleSheet, Text, View } from 'react-native'
-import React from 'react'
+import React, { useEffect } from 'react';
+import { StyleSheet, View, Text, SafeAreaView, TouchableOpacity, StatusBar, Platform } from 'react-native';
+import { Ionicons } from '@expo/vector-icons';
+import { StatusBar as ExpoStatusBar } from 'expo-status-bar';
 
 const community = () => {
   return (
-    <View>
+    <View className='flex-1 bg-primary  ' style={[{ paddingTop: Platform.OS === 'android' ? StatusBar.currentHeight || 20 : 20 }]}>
       <Text>community</Text>
     </View>
   )
