@@ -39,7 +39,7 @@ export default function HomeScreen() {
      <Text className='text-3xl p-4 mt-2 text-[#E9EDCA]'>Daily Challenges</Text>
      <View className='mt-4 p-4  flex-row justify-between items-center '>
         <HomeCard width={'44'}/>
-        <HomeCard width={'44'}/>
+        <HomeCard width={'44'}/> 
        </View>
     </View>
 

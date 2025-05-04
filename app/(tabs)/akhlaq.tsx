@@ -3,6 +3,8 @@ import { StyleSheet, Image, View, Text, SafeAreaView, TouchableOpacity, StatusBa
 import { Ionicons } from '@expo/vector-icons';
 import { StatusBar as ExpoStatusBar } from 'expo-status-bar';
 import { images } from '@/constants/images'
+import { Link } from 'expo-router';
+
 
 const akhlaq = () => {
   return (
@@ -14,9 +16,16 @@ const akhlaq = () => {
         <Image source={images.ilm} className='w-full h-full rounded-b-[24rem] opacity-65' resizeMode="cover"
         />
       </View>
-      <View>
-        {/* blobls link to akhlaqs  */}
-        
+      <View className='mt-1 px-8 flex-row justify-between  '>
+        <Link href='/akhlaq/divine'>
+          <Image source={images.pilgrim} className='w-20 h-20' />
+        </Link>
+        <Link href='/akhlaq/social' className='mt-20'>
+          <Image source={images.aother} className='w-20 h-16 ' />
+        </Link>
+        <Link href='/akhlaq/self'>
+          <Image source={images.aself} className='w-[64px] h-[60px]' />
+        </Link>
       </View>
     </View>
   )
