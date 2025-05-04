@@ -13,7 +13,7 @@ const journal = () => {
       <View className='h-[48%] w-full absolute top-0'>
         <Image source={images.journal} className='w-full h-full'/>
       </View>
-      <View className=' relative top-72'>
+      <View className=' relative top-80'>
       <Header
         //  bgColor='gray-200'
          currentSection="journal"

@@ -65,6 +65,7 @@ const _layout = () => {
       <Tabs.Screen name='community' options={{
         title: 'community',
         headerShown: false,
+        href: null,
         tabBarIcon: ({ focused }) => (
           <CommunityIcon
             width={24}
@@ -76,6 +77,7 @@ const _layout = () => {
       <Tabs.Screen name='journal' options={{
         title: 'journal',
         headerShown: false,
+        href: null,
         tabBarIcon: ({ focused }) => (
           <JournalIcon
             width={24}
