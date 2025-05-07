@@ -4,10 +4,10 @@ import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { StatusBar as ExpoStatusBar } from 'expo-status-bar';
 import { images } from '@/constants/images';
 import SegmentTabs from '../components/SegmentTabs'
-import Ikhlas from './divine/Ikhlas'
-import Tawakkul from './divine/Tawakkul'
-import Shukr from './divine/Shukr'
-import Sabr from './divine/Sabr'
+import Ikhlas from '../components/akhlaq/divine/Ikhlas'
+import Tawakkul from '../components/akhlaq/divine/Tawakkul'
+import Shukr from '../components/akhlaq/divine/Shukr'
+import Sabr from '../components/akhlaq/divine/Sabr'
 
 const Tab = createBottomTabNavigator();
 // const Stack = createStackNavigator();

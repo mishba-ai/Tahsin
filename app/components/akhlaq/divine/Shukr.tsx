@@ -8,7 +8,7 @@ const Shukr = () => {
   return (
     <View>
        <View className='w-12 h-12 relative left-4'>
-        <Image source={images.m4} className='w-[380px]   h-[626px]' />
+        <Image source={images.m4} className='w-[380px] opacity-20  h-[626px]' />
       </View>
       <Text>Shukr</Text>
     </View>

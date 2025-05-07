@@ -4,17 +4,15 @@ import { NavigationContainer } from '@react-navigation/native';
 import { images } from '@/constants/images';
 import { Ionicons } from '@expo/vector-icons';
 
-
-
-const Ikhlas = () => {
+const Sabr = () => {
   return (
     <View>
-      <View className='w-12 h-12 relative left-4'>
-        <Image source={images.m1} className='w-[380px]   h-[626px]' />
+       <View className='w-12 h-12 relative left-4'>
+        <Image source={images.m3} className='w-[380px]   h-[626px] opacity-20' />
       </View>
-      <Text>Ikhlas</Text>
+      <Text>Sabr</Text>
     </View>
   )
 }
 
-export default Ikhlas
+export default Sabr

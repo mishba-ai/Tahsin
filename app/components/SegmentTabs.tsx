@@ -20,15 +20,15 @@ const SegmentTabs: React.FC<SegmentTabsProps> = ({
   const navigation = useNavigation();
 
   return (
-    <View className={`flex-row justify-between p-3 z-50  bg-${bgColor} items-center`}>
+    <View className={`flex-row justify-between px-3 z-50  bg-${bgColor} items-center`}>
       {tabs.map((tab, index) => (
         <TouchableOpacity
           key={index}
-          className={` ${activeTab === tab ? 'border-b-2 border-[#4f46e5]' : ''}`}
+          className={` ${activeTab === tab ? 'border-b-2 border-[#547a43]' : ''}`}
           onPress={() => onTabPress(tab)}
         >
           <Text
-            className={`font-medium ${activeTab === tab ? 'text-[#4f46e5]' : 'text-gray-600'}`}
+            className={`font-bold text-xl ${activeTab === tab ? 'text-[#547a43]' : 'text-[#495542]'}`}
           >
             {tab}
           </Text>

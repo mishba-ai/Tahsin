@@ -13,7 +13,7 @@ const akhlaq = () => {
       <ExpoStatusBar style="dark" translucent={true} />
 
       <View className='w-full h-[70%]'>
-        <Image source={images.ilm} className='w-full h-full rounded-b-[24rem] opacity-65' resizeMode="cover"
+        <Image source={images.ilm} className='w-full opacity-30 h-full rounded-b-[24rem] ' resizeMode="cover"
         />
       </View>
       <View className='mt-1 px-8 flex-row justify-between  '>
