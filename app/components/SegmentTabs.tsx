@@ -2,7 +2,7 @@ import { View, Text, TouchableOpacity } from 'react-native'
 import React from 'react'
 import { useNavigation } from '@react-navigation/native';
 
-interface HeaderProps {
+interface SegmentTabsProps {
   currentSection?: string;
   tabs: string[];
   activeTab: string;
@@ -10,7 +10,7 @@ interface HeaderProps {
   bgColor?: string; 
 }
 
-const Header: React.FC<HeaderProps> = ({
+const SegmentTabs: React.FC<SegmentTabsProps> = ({
   currentSection,
   tabs,
   onTabPress,
@@ -38,4 +38,4 @@ const Header: React.FC<HeaderProps> = ({
   )
 }
 
-export default Header
+export default SegmentTabs

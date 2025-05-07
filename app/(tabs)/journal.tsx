@@ -3,7 +3,7 @@ import { StyleSheet, View, Text, SafeAreaView, TouchableOpacity, StatusBar, Plat
 import { Ionicons } from '@expo/vector-icons';
 import { StatusBar as ExpoStatusBar } from 'expo-status-bar';
 import {images} from '@/constants/images'
-import Header from '../components/Header'
+import Header from '../components/SegmentTabs'
 
 const journal = () => {
   const [activeTab, setActiveTab] = useState('Journals');
